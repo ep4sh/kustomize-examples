@@ -1,0 +1,9 @@
+[
+  {"op": "replace", "path": "/data", "value":
+  {
+      "env": "dev",
+      "team": "team-a",
+      "key": "AAA"
+  }
+  }
+]

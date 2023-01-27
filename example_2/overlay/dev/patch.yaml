@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ds1
+data:
+  mod.json: |
+    {
+      "env": "dev",
+      "team": "team-x",
+      "key": "dev-XRA"
+    }

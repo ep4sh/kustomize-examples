@@ -1,0 +1,10 @@
+namePrefix: toplevel-
+
+generatorOptions:
+  labels:
+    fruit: apple
+
+configMapGenerator:
+  - name: dashboards
+    files:
+    - dash.json
